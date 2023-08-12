@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  height: 100vh;
+}
+.services {
+  background-color: white;
+  color: #666;
+  text-align: center;
+  width: 100%;
+  padding: 80px;
+  font-size: 72px;
+}
+
+.three {
+  background-color: #69686897;
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+  overflow: hidden;
+}
+.cards {
+  width: 100%;
+  justify-items: center;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 80px 80px 80px 80px;
+  gap: 5px;
+}
+.card1,
+.card2,
+.card3 {
+  width: 70%;
+  gap: 20px;
+  background-color: #69686897;
+  border-radius: 15px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.cards h3 {
+  color: solid black;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding: 20px 20px 0px 20px;
+}
+.cards p {
+  color: solid black;
+  font-size: 25px;
+  margin-top: 0px;
+  padding: 10px 20px 20px 20px;
+}
+.card1 img {
+  background-size: cover;
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+}
+.card2 img {
+  background-size: cover;
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+}
+.card3 img {
+  background-size: cover;
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+}
